@@ -15,6 +15,14 @@ int AdditionFunction(vector<int> v) {
     return total;
 }
 
+// Solution, using ranges and += addition, passing vector as a reference
+// int AdditionFunction(vector<int> &v) {
+//     int sum = 0;
+//     for(int i : v)
+//         sum += i;
+//     return sum;
+// }xer
+
 int main() 
 {
     vector<int> v {1, 2, 3};
