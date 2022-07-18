@@ -35,8 +35,7 @@ int AdditionFunction(vector<int> v) {
 
 // Solution, using <numeric> std::accumulate
 // int AdditionFunction(vector<int> v) {
-//     int sum = accumulate(v.begin(), v.end(), 0);
-//     return sum;
+//     return accumulate(v.begin(), v.end(), 0);
 // }
 
 int main() 
