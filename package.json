@@ -4,7 +4,8 @@
   "description": "Udacity C++ nanodegree program",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "comp": "g++ -std=c++17",
+    "dev": "./a.out"
   },
   "keywords": [],
   "author": "",
