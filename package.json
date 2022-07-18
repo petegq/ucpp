@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "comp": "g++ -std=c++17",
+    "main": "g++ -std=c++17 main.cpp && npm run dev",
     "dev": "./a.out"
   },
   "keywords": [],
