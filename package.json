@@ -6,6 +6,7 @@
   "scripts": {
     "comp": "g++ -std=c++17",
     "main": "g++ -std=c++17 main.cpp && npm run dev",
+    "file": "touch main.cpp",
     "dev": "./a.out"
   },
   "keywords": [],
