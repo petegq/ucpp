@@ -1,7 +1,9 @@
 #include <iostream>
 #include <vector>
+#include <numeric>
 using std::cout;
 using std::vector;
+using std::accumulate;
 
 // Define a function "AdditionFunction" here.
 // Instead of just two ints, this function should accept a vector<int> 
@@ -10,18 +12,32 @@ using std::vector;
 int AdditionFunction(vector<int> v) {
     int total = 0;
     for(int i = 0; i < v.size(); i++) {
-        total = total + v[i];
+        total += v[i];
     }
     return total;
 }
 
-// Solution, using ranges and += addition, passing vector as a reference
-// int AdditionFunction(vector<int> &v) {
+// Solution, using ranges and += addition, passing vector as a reference + use constants
+// int AdditionFunction(const vector<int> &v) {
 //     int sum = 0;
-//     for(int i : v)
+//     for(const int &i : v)
 //         sum += i;
 //     return sum;
-// }xer
+// }
+
+//solution, using begin and end
+// int AdditionFunction(vector<int> v) {
+//     int sum = 0;
+//     for(auto i = v.begin(); i != v.end(); ++i)
+//         sum += *i;
+//     return sum;
+// }
+
+// Solution, using <numeric> std::accumulate
+// int AdditionFunction(vector<int> v) {
+//     int sum = accumulate(v.begin(), v.end(), 0);
+//     return sum;
+// }
 
 int main() 
 {
