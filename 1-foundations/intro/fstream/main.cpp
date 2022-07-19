@@ -4,7 +4,7 @@
 
 int main() {
     std::ifstream my_file;
-    my_file.open("files/1.board");
+    my_file.open("1.board");
     if (my_file) {
       std::cout << "The file stream has been created!" << "\n";
     }    
