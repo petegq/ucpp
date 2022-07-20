@@ -3,8 +3,10 @@
 #include <string>
 
 int main() {
-    std::ifstream my_file;
-    my_file.open("1.board");
+    // std::ifstream my_file;
+    // my_file.open("1.board");
+    std::ifstream my_file("1.board");
+    
     if (my_file) {
         std::cout << "The file stream has been created!" << "\n";
         std::string line;
