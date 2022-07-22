@@ -1,11 +1,10 @@
 ---
 created: 2022-07-22T09:40:39.226Z
-updated: 2022-07-22T09:58:15.862Z
+updated: 2022-07-22T10:23:20.606Z
 assigned: ""
-progress: 1
+progress: 0.65
 tags: []
 started: 2022-07-22T00:00:00.000Z
-completed: 2022-07-22T00:00:00.000Z
 ---
 
 # Intro
